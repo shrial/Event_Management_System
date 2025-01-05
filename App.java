@@ -472,7 +472,7 @@ addToDoButton.setOnAction(e -> {
     private ArrayList<String> foodList;
     private int currentFoodCount;  // New counter
 
-    // Constructor with max guests argument
+    // Constructor with max food items argument
     public FoodManager() {
         this.foodList = new ArrayList<>();
         this.currentFoodCount = 0;  // Initialize counter
